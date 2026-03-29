@@ -144,6 +144,25 @@ Go to **Analytics** to see:
 - Churn probability histogram
 - Preview of predicted churn columns
 
+## Project Workflow Screenshots
+
+The following visual flow makes it easy to understand how the app is used end-to-end.
+
+### 1) Home Dashboard Overview
+![Home Dashboard](docs/screenshots/01_home_dashboard.png)
+
+### 2) Predict Page - Upload Flow
+![Predict Upload](docs/screenshots/02_predict_upload.png)
+
+### 3) Predict Page - Batch Results & Visualizations
+![Predict Results](docs/screenshots/03_predict_results.png)
+
+### 4) Analytics Page - Uploaded Prediction Insights
+![Analytics Overview](docs/screenshots/04_analytics_overview.png)
+
+### 5) Model Info - Confusion Matrix & ROC
+![Model Info ROC](docs/screenshots/05_model_info_roc.png)
+
 ## Prediction Output Schema
 
 The prediction pipeline returns both generic and churn-friendly fields.
