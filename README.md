@@ -70,6 +70,8 @@ customer_churn_prediction/
 - Python 3.10+ (3.11 recommended)
 - `pip`
 
+For Streamlit Cloud deployments, this repo includes `runtime.txt` pinned to Python 3.11 for consistent dependency resolution.
+
 ### Installation
 
 ```bash
@@ -196,6 +198,10 @@ Use the latest code in this repo. The prediction path already converts feature m
 ### 4) Uploaded CSV has missing columns
 
 The app auto-fills required missing fields and shows which columns were filled.
+
+### 5) Error installing requirements on Streamlit Cloud
+
+If you see "Error installing requirements", ensure the app is using the repository `runtime.txt` (Python 3.11) and redeploy.
 
 ## Deployment
 
